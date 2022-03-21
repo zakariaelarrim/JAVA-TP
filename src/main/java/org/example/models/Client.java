@@ -1,12 +1,8 @@
 package org.example.models;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.*;
 
-@Getter
-@Setter
 @AllArgsConstructor
 @Entity(name = "Client")
 //@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
